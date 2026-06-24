@@ -102,7 +102,7 @@
 
                     <div class="col-md-6 mb-3">
                         <label class="form-label small fw-semibold">Nomor HP</label>
-                        <input type="text" class="form-control @error('no_hp') is-invalid @enderror" name="no_hp"
+                        <input type="number" class="form-control @error('no_hp') is-invalid @enderror" name="no_hp"
                             value="{{ old('no_hp') }}" required placeholder="081234567890">
                         @error('no_hp')
                             <div class="invalid-feedback small">{{ $message }}</div>

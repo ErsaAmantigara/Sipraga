@@ -34,7 +34,7 @@
                             <label for="otp" class="col-md-4 col-form-label text-md-end">OTP WhatsApp</label>
 
                             <div class="col-md-6">
-                                <input id="otp" type="text" class="form-control @error('otp') is-invalid @enderror" name="otp" value="{{ old('otp') }}" required inputmode="numeric" maxlength="6" placeholder="6 digit OTP">
+                                <input id="otp" type="number" class="form-control @error('otp') is-invalid @enderror" name="otp" value="{{ old('otp') }}" required inputmode="numeric" maxlength="6" placeholder="6 digit OTP">
 
                                 @error('otp')
                                     <span class="invalid-feedback" role="alert">

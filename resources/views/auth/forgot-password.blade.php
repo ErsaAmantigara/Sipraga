@@ -44,7 +44,7 @@
     
                     <input
                         id="no_hp"
-                        type="text"
+                        type="number"
                         name="no_hp"
                         value="{{ old('no_hp') }}"
                         class="form-control rounded-3 @error('no_hp') is-invalid @enderror"

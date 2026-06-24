@@ -70,7 +70,7 @@
                         <label class="form-label small fw-semibold">User ID</label>
                         <span class="small form-label fw-semibold" style="font-size: 12px"><span class="text-danger">*</span> User ID Merupakan Nomor Handphone</span>
                     </div>
-                    <input type="text" class="form-control @error('no_hp') is-invalid @enderror" name="no_hp"
+                    <input type="number" class="form-control @error('no_hp') is-invalid @enderror" name="no_hp"
                         value="{{ old('no_hp') }}" required autofocus placeholder="081234567890">
 
 
