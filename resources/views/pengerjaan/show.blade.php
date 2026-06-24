@@ -59,7 +59,7 @@
 </div>
 
 @php
-    $profilepelanggan = $pengerjaan->pengaduan->user->profilepelanggan->first();
+    $profilepelanggan = $pengerjaan->pengaduan->user->profilepelanggan;
 
     $mapsUrl =
         $profilepelanggan?->latitude && $profilepelanggan?->longitude
